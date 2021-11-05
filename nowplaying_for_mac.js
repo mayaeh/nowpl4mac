@@ -4,7 +4,7 @@
 app = Application.currentApplication();
 app.includeStandardAdditions = true;
 
-const itunes = Application('iTunes');
+const itunes = Application('Music');
 const track = itunes.currentTrack;
 
 const mastodon_server = 'taruntarun.net';
